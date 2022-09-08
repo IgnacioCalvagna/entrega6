@@ -1,0 +1,77 @@
+  <h4 style="margin-left:20%;margin-top:7%"class="container  title is-4 has-text-link">Ingrese Producto</h4>
+<div
+  class="container is-max-desktop mt-5"
+  style="background-color: #e9ecef; padding: 45px;border-radius: 15px;"
+>
+  <div class="field">
+    <div class="control">
+      <label class="label">Nombre</label>
+      <input class="input" type="text" placeholder="Nombre" id="nameProduct" />
+    </div>
+  </div>
+  <div class="field">
+    <div class="control">
+      <label class="label">Precio</label>
+      <input
+        class="input"
+        type="number"
+        placeholder="Precio"
+        id="priceProduct"
+        required
+      />
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Foto URL</label>
+    <div class="control">
+      <input
+        class="input"
+        type="text"
+        placeholder="Foto Url"
+        id="imageProduct"
+        required
+      />
+    </div>
+  </div>
+  <button class="button is-link" id="buttonProduct">Enviar</button>
+
+  <table class="table is-fullwidth" style="margin-top: 25px;">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Precio</th>
+        <th>Foto</th>
+      </tr>
+    </thead>
+    <tbody id="table-data">
+
+    </tbody>
+  </table>
+</div>
+
+<div
+  class="container is-max-desktop"
+  style="background-color: #5287bd; padding: 25px;border-radius: 15px;margin-top: 25px;"
+>
+  <h4 class="title is-4  has-text-link" style="text-align:center;color:black">Centro de mensajes</h4>
+
+  <input class="input is-primary" id="email" type="email" placeholder="Email" />
+  <hr style="border-top: 1px solid rgb(128, 106, 106);" />
+  <div id="chat"></div>
+
+  
+
+  <div class="field is-grouped mt-2">
+
+    <p class="control is-expanded">
+      <input class="input" id="message" type="email" placeholder="Mensaje..." />
+    </p>
+    <p class="control">
+      <a type="button" class="button btn btn-success" id="submit">
+        Enviar Mensaje
+      </a>
+    </p>
+
+  </div>
+
+</div>
